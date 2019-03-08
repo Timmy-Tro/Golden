@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  color: #fff;
+  height: 729px;
+  background: url(../img/bg-header.png);
+  background-size: cover;
+}
+.logo {
+  margin-top: 50px;
+}
+.menu {
+  margin-top: 54px;
+  color: #fff;
+}
+.menu__item {
+  margin: 0 40px;
+  text-transform: uppercase;
+}
+.menu__item li {
+  list-style: none;
+}
+.menu__item a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.menu__item a:hover {
+  text-decoration: none;
+  color: #fed136;
+}
+.menu__item:last-child {
+  margin-right: 242px;
+}
+.mainTitle {
+  text-align: center;
+  margin-top: 227px;
+}
+.mainTitle__main {
+  font-family: "Droid-Serif";
+  font-style: italic;
+  font-size: 40px;
+}
+.mainTitle__text {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 75px;
+}
+.form__btn {
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 59px;
+  border: 0;
+  border-radius: 3px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.title {
+  text-align: center;
+}
+.title__main {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.title__text {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  color: #777777;
+}
