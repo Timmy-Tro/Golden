@@ -69,6 +69,7 @@ ul, li {
 }
 .title {
   text-align: center;
+  margin-top: 120px;
 }
 .title__main {
   text-transform: uppercase;
@@ -78,5 +79,57 @@ ul, li {
 .title__text {
   font-family: 'Droid Serif';
   font-style: italic;
+  font-size: 18px;
   color: #777777;
+  margin-bottom: 80px;
+}
+.services__item {
+  font-size: 40px;
+  margin-bottom: 28px;
+  margin-left: 130px;
+  color: #fed136;
+}
+.services__block {
+  text-align: center;
+  width: 300px;
+  font-size: 14px;
+  letter-spacing: -0.35px;
+}
+.block__title {
+  color: #222222;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+}
+.block__text {
+  color: #777777;
+  font-family: "Roboto";
+}
+.portfolio__img {
+  margin-bottom: 30px;
+  width: 291px;
+  height: 300px;
+}
+.portfolio__block {
+  text-align: center;
+  margin-bottom: 77px;
+}
+.item__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+.item__text {
+  font-family: "Droid Serif";
+  font-size: 14px;
+  font-style: italic;
+  color: #737373;
+}
+.about__img {
+  width: 168px;
+  height: 168px;
+  margin: 0 45px;
+  text-align: center;
 }
