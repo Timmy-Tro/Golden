@@ -184,18 +184,6 @@ ul, li {
 .contact {
   background: url(../img/bg-contact.png);
   color: #fff;
-}
-.footer__copy {
-  font-family: "Montserrat";
-  font-size: 14px;
-  letter-spacing: -0.35px;
-  color: #555555;
-  margin: 50px auto;
-}
-.footer__social {
-  margin: 35px 5px;
-}
-.contact {
   margin-bottom: 0px;
 }
 .form__input {
@@ -221,4 +209,19 @@ ul, li {
 }
 .form__btn {
   margin: 0 auto 115px;
+}
+.footer {
+  height: 90px;
+}
+.footer__copy {
+  font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: -0.35px;
+  color: #555555;
+}
+.about__block {
+  text-align: right;
+  width: 310px;
+  font-size: 14px;
+  letter-spacing: -0.35px;
 }
