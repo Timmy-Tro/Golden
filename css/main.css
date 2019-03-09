@@ -195,11 +195,30 @@ ul, li {
 .footer__social {
   margin: 35px 5px;
 }
-.input__name {
-  margin-bottom: 30px;
-  margin-left: 30px;
+.contact {
+  margin-bottom: 0px;
 }
-.form__msg {
+.form__input {
+  color: #bbbbbb;
+}
+.form__input input {
+  width: 455px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: auto;
+  padding: 20px 20px;
+  border: 0;
+  border-radius: 3px;
+}
+.form__msg textarea {
   width: 455px;
   height: 210px;
+  padding: 20px 20px;
+  font-size: 12px;
+  border: 0;
+  border-radius: 3px;
+}
+.form__btn {
+  margin: 0 auto 115px;
 }

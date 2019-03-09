@@ -372,7 +372,7 @@
   </section>
   <section class="contact" id="contact">
     <div class="container">
-      <div class="contact">
+      <div class="contact"> <!-- Contact Form -->
         <div class="row"> <!-- Contact Title -->
           <div class="col-lg-12">
             <div class="title">
@@ -385,17 +385,25 @@
             </div>
           </div>
         </div> <!-- Contact Title -->
-        <div class="row"> <!-- Contact Form -->
-          <div class="col-lg-6">
-            <input type="name" placeholder="YOUR NAME *" class="input__name" required><BR>
-            <input type="email" placeholder="YOUR E-MAIL *" class="input__email" required><BR>  
+        <div class="row d-flex justify-content-center"> <!-- Contact Input -->
+          <div class="col-lg-5 form__input"> <!-- Form Input-->
+            <input type="name" placeholder="YOUR NAME *" class="input__name" required>
+            <input type="email" placeholder="YOUR E-MAIL *" class="input__email" required>
             <input type="subject" placeholder="SUBJECT" class="input__name">
-          </div>
-          <div class="col-lg-6">
+          </div> <!-- Contact Input -->
+          <div class="col-lg-5 form__msg"> <!-- Input Message -->
             <textarea name="message" placeholder="YOUR MESSAGE *" cols="30" rows="10" class="form__msg" required></textarea>
+          </div> <!-- Input Message -->
+        </div> <!-- Contact Input -->
+        <div class="row"> <!-- Button -->
+          <div class="col-lg-12 d-flex justify-content-center">
+            <form action="#" class="form">
+              <button class="form__btn" type="more">Tell me more</button>
+            </form>
           </div>
-        </div> <!-- Contact Form -->
-      </div>
+        </div> <!-- Button -->
+
+      </div> <!-- Contact Form -->
     </div>
   </section>
   <footer class="footer" id="footer">
